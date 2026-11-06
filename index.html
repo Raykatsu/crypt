@@ -405,10 +405,9 @@ dialog[open]{animation:dlg .4s cubic-bezier(.2,.9,.25,1) both}
     <div class="values">
       <div><h4>Rigueur</h4><p>Une paie, un planning, un dossier : les détails comptent, surtout quand ils concernent des personnes.</p></div>
       <div><h4>Curiosité</h4><p>Je cherche à comprendre pourquoi un processus fonctionne, ou non, avant de proposer une solution.</p></div>
-      <div><h4>Esprit d’entreprendre</h4><p>Passer de l’idée au projet concret, en assumant les décisions et en apprenant des erreurs.</p></div>
     </div>
     <div class="keys chips" aria-label="Mots-clés">
-      <span class="chip">Recrutement</span><span class="chip">Administration du personnel</span><span class="chip">Paie</span><span class="chip">Amélioration des processus</span><span class="chip">Gestion de projet</span><span class="chip">Entrepreneuriat</span>
+      <span class="chip">Recrutement</span><span class="chip">Administration du personnel</span><span class="chip">Paie</span><span class="chip">Amélioration des processus</span><span class="chip">Gestion de projet</span>
     </div>
   </div>
 </section>
@@ -789,8 +788,6 @@ const CHAPTERS = [
   { id: 'terrain', label: 'Le terrain d’abord', title: 'Apprendre en situation réelle',
     text: ['Mes stages chez Inspiration x TBS m’ont plongé dans un groupe aux activités très différentes : coiffure, cosmétique et parfumerie, restauration. J’y ai pratiqué le recrutement, la gestion administrative, la préparation de la paie et les plannings.',
            'Parallèlement à mes études, j’ai aussi travaillé en intérim et à temps partiel, ce qui m’a appris à m’intégrer vite dans une équipe.'] },
-  { id: 'entreprendre', label: 'L’envie d’entreprendre', title: 'Donner forme à mes idées',
-    text: ['Je porte deux projets entrepreneuriaux : un restaurant de cuisine thaïlandaise et une maison de parfums de niche. Ils m’apprennent à structurer une idée, à arbitrer et à mener un projet de A à Z.'] },
   { id: 'suite', label: 'La suite', title: 'Consolider mon expérience en RH',
     text: ['Je souhaite poursuivre dans les ressources humaines en alliant rigueur administrative et regard critique sur les processus, afin de proposer des améliorations utiles aux équipes et aux personnes qui les composent.'] }
 ];
@@ -890,21 +887,21 @@ const PRO = [
     results: ['Une application fonctionnelle, installable comme une app mobile, organisée en six espaces : accueil, séances, créer, repas, coach, profil', 'Un outil que j’utilise réellement pour structurer mes entraînements', 'Un projet public, accessible à qui veut l’essayer'],
     reflect: { ok: 'Transformer un besoin très personnel en un outil que je pouvais rendre public.', better: 'Documenter davantage mes choix en cours de route pour pouvoir les expliquer plus facilement après coup.', savoirs: 'Fonctionnement d’une application web, logique de conception produit', faire: 'Spécifier un besoin, le traduire en fonctionnalités, itérer avec une IA, tester', etre: 'Persévérance, autonomie, envie de transmettre' },
     skills: ['Pépite : faire preuve de créativité', 'AC35.04GPRH Analyser la pertinence des outils de la digitalisation de la gestion'] },
-  { id: 'bangkook', title: 'Un concept de street food thaïlandaise', sub: 'Projet entrepreneurial, Châteauroux',
-    context: 'Projet d’ouverture d’un restaurant de cuisine thaïlandaise et asiatique à Châteauroux, porté en parallèle de mes études.',
+  { id: 'bangkook', title: 'Un concept de street food thaïlandaise', sub: 'Mission d’appui, restauration',
+    context: 'Projet d’ouverture d’un restaurant de cuisine thaïlandaise et asiatique à Châteauroux, sur lequel j’ai apporté mon aide en parallèle de mes études.',
     goals: 'Faire exister l’enseigne : image de marque, cadre juridique et documents RH, puis un dossier de présentation solide.',
-    role: 'Porteur du projet',
+    role: 'Contributeur, en appui au porteur du projet',
     missions: [],
-    approach: ['Définir l’identité de l’enseigne et son univers visuel', 'Structurer le cadre juridique et les documents RH', 'Préparer un dossier professionnel présentant les travaux de rénovation et l’activité prévue'],
+    approach: ['Aider à définir l’identité de l’enseigne et son univers visuel', 'Participer à la structuration du cadre juridique et des documents RH', 'Préparer un dossier professionnel présentant les travaux de rénovation et l’activité prévue'],
     results: ['Un dossier professionnel illustré de rendus d’architecte et de photos de chantier', 'Des supports de marque, juridiques et RH'],
-    reflect: { ok: 'Passer de l’idée à un dossier concret, lisible par des interlocuteurs qui ne connaissent pas le projet.', better: 'Anticiper davantage le chiffrage et le calendrier.', savoirs: 'Création d’entreprise, cadre juridique et RH d’un restaurant', faire: 'Monter un dossier, structurer un projet', etre: 'Autonomie, persévérance' },
-    skills: ['Pépite : agir et lancer un projet', 'Pépite : construire un projet'] },
-  { id: 'djianis', title: 'Une maison de parfums de niche', sub: 'Projet entrepreneurial, parfumerie',
-    context: 'Création d’une maison de parfumerie de niche, autour d’un parfum inspiré d’un imaginaire méditerranéen et oriental de luxe.',
+    reflect: { ok: 'Aider à passer d’une idée à un dossier concret, lisible par des interlocuteurs qui ne connaissent pas le projet.', better: 'Anticiper davantage le chiffrage et le calendrier.', savoirs: 'Création d’entreprise, cadre juridique et RH d’un restaurant', faire: 'Monter un dossier, structurer un projet', etre: 'Autonomie, persévérance' },
+    skills: ['Pépite : construire un projet', 'Pépite : faire preuve d’autonomie'] },
+  { id: 'djianis', title: 'Une maison de parfums de niche', sub: 'Mission d’appui, parfumerie',
+    context: 'Création d’une maison de parfumerie de niche, autour d’un parfum inspiré d’un imaginaire méditerranéen et oriental de luxe, sur laquelle j’ai apporté mon aide.',
     goals: 'Donner une identité forte à la marque et la rendre visible sur les réseaux sociaux.',
-    role: 'Porteur du projet',
+    role: 'Contributeur, en appui au porteur du projet',
     missions: [],
-    approach: ['Définir l’univers de la marque : méditerranéen, luxe, notes orientales', 'Concevoir le packaging et travailler le sourcing', 'Produire des visuels pour Instagram avec des outils d’IA (Ideogram, Leonardo, Artlist), en itérant sur les instructions jusqu’à un rendu fidèle, étiquette comprise'],
+    approach: ['Aider à définir l’univers de la marque : méditerranéen, luxe, notes orientales', 'Participer à la réflexion sur le packaging et le sourcing', 'Produire des visuels pour Instagram avec des outils d’IA (Ideogram, Leonardo, Artlist), en itérant sur les instructions jusqu’à un rendu fidèle, étiquette comprise'],
     results: ['Une série de visuels de marque pour Instagram', 'Un univers visuel cohérent pour le parfum'],
     reflect: { ok: 'Un univers visuel reconnaissable, obtenu par itérations successives.', better: 'Formaliser une charte graphique pour garder la cohérence sur tous les supports.', savoirs: 'Image de marque, communication digitale', faire: 'Formuler des instructions précises, itérer, choisir les bons outils', etre: 'Créativité, exigence' },
     skills: ['Pépite : faire preuve de créativité', 'AC33.03 Participer à l’amélioration de la politique de communication'] }
@@ -974,7 +971,7 @@ const STRENGTHS = [
   { type: 'comp', lines: ['Animer', 'une équipe'], title: 'Animer une équipe', code: 'AC33.01, animer une équipe, et AC33.02, mener un projet collaboratif',
     text: 'Directeur général d’une équipe de cinq étudiants pour ce concept de restaurant, j’ai réparti les rôles, coordonné les livrables et préparé la soutenance.', go: ['universite', 'pump'], goLabel: 'Voir ce projet' },
   { type: 'soft', lines: ['Autonomie'], title: 'Autonomie', code: 'Savoir-être',
-    text: 'J’ai mené en parallèle de mes études deux projets entrepreneuriaux, de l’idée au dossier concret, en fixant moi-même mes priorités.', go: ['terrain', 'bangkook'], goLabel: 'Voir ce projet' },
+    text: 'En parallèle de mes études, j’ai aidé sur deux projets d’entreprise, de l’idée au dossier concret, en gérant mes missions de façon autonome.', go: ['terrain', 'bangkook'], goLabel: 'Voir ce projet' },
   { type: 'soft', lines: ['Persévérance'], title: 'Persévérance', code: 'Savoir-être',
     text: 'Des années d’entraînement structuré et un rapport de stage retravaillé après plusieurs relectures : je tiens dans la durée et j’intègre les retours.', go: ['passion'], goLabel: 'Voir ma passion' },
   { type: 'soft', lines: ['Curiosité'], title: 'Curiosité', code: 'Savoir-être',
